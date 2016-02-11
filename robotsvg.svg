@@ -15,8 +15,9 @@
 					-o-animation: wave 2s infinite;
 					-o-animation-timing-function: linear;
 					-ms-animation: wave 2s infinite;
-					-ms-animation-duration: 2s;
 					-ms-animation-timing-function: linear;
+					-moz-animation: wave 2s infinite;
+					-moz-animation-timing-function: linear;
 
 				}
 
@@ -98,11 +99,28 @@
 
 									-o-transform: rotate(0deg);
 									-o-transform-origin: 215px 368px;
+									}
 								}
 
+								@-moz-keyframes wave {
+									0% {
+
+										-moz-transform: rotate(0deg);
+										-moz-transform-origin: 215px 368px;
+
+									}
+									50% {
 
 
-				}
+										-moz-transform: rotate(60deg);
+										-moz-transform-origin: 215px 368px;
+
+									}
+									100% {
+										-moz-transform: rotate(0deg);
+										-moz-transform-origin: 215px 368px;
+										}
+								}
 
 
 
