@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#699166;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:19.479;stroke-miterlimit:10;}
-</style>
-<image style="overflow:visible;" width="1920" height="1080" id="XMLID_2_" xlink:href="B94693C6.jpg"  transform="matrix(1 0 0 1 -1622 1238.28)">
-</image>
-<path id="XMLID_1_" class="st0" d="M553,499H39.6c-10.4,0-19-8.5-19-19V124.7c0-10.4,8.5-19,19-19H553c10.4,0,19,8.6,19,19V480
-	C572,490.4,563.5,499,553,499z"/>
-<path id="XMLID_3_" class="st1" d="M576.6,77.2c10.3,10.3,10.3,27.1,0,37.4L319,372.1c-10.3,10.3-27.1,10.3-37.4,0L30.1,120.5
-	c-10.3-10.3-10.3-27.1,0-37.4"/>
-<path id="XMLID_6_" class="st1" d="M385.1,306.1l187,187"/>
-<path id="XMLID_5_" class="st1" d="M25.5,499l194.9-194.9"/>
+<svg id="mail" height="1000" width="1000" xmlns="http://www.w3.org/2000/svg">
+
+  <path id="mailpath" d="M0 499.968q0 -207.018 146.475 -353.493t353.493 -146.475 353.493 146.475 146.475 353.493 -146.475 353.493 -353.493 146.475 -353.493 -146.475 -146.475 -353.493zm244.125 193.347l511.686 0l-166.005 -173.817 -89.838 50.778 -89.838 -50.778zm0 -58.59l130.851 -136.71 -130.851 -74.214l0 210.924zm0 -255.843l255.843 144.522 255.843 -144.522l0 -72.261l-511.686 0l0 72.261zm380.835 119.133l130.851 136.71l0 -210.924z"/>
 </svg>

@@ -16,6 +16,8 @@
 
     }
 
+
+
     .robot {
       user-drag: none;
       user-select: none;
@@ -35,11 +37,11 @@
       min-height:100%;
       width: 99%;
       padding-top: 0px;
-      background: white; /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.4)); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* Standard syntax (must be last) */
+      background: rgba(250, 250, 250, 1); /* For browsers that do not support gradients */
+      //background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.4)); /* For Safari 5.1 to 6.0 */
+      //background: -o-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* For Opera 11.1 to 12.0 */
+      //background: -moz-linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* For Firefox 3.6 to 15 */
+      //background: linear-gradient(rgba(255, 255, 255, 1), rgba(163, 208, 160, 0.2)); /* Standard syntax (must be last) */
 
 
 
@@ -269,7 +271,7 @@
 .fourth {
     text-align: center;
     float: left;
-    width: 50%;
+    width: 95%;
     bottom: 0px;
     margin:0 auto;
 
@@ -278,6 +280,44 @@
 
 
 }
+
+.mail {
+  text-decoration: none;
+  color: black;
+  font-size: 200%;
+  text-align: center;
+}
+
+.fifth {
+
+  align-content: center;
+  text-align: center;
+  padding: 50px;
+
+
+}
+
+.insta{
+  padding-right: 70px;
+}
+
+a svg #mailpath {
+  fill: black;
+}
+
+a svg:hover #mailpath {
+  fill: #6A9167;
+}
+
+a svg:hover #insta {
+  fill: #6A9167;
+}
+
+a svg:hover #fb {
+  fill: #6A9167;
+}
+
+
 
 h1 .softvare{
   padding-left: 15px;
