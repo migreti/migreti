@@ -210,7 +210,7 @@
     	border-radius: 150px;
     	-webkit-border-radius: 150px;
     	-moz-border-radius: 150px;
-    	background: url(imgs/me_blink.gif) no-repeat;
+    	background: url(/imgs/me_blink.gif) no-repeat;
       filter: gray; /* For IE6-9 */
       filter: grayscale(1); /* For Microsoft Edge and Firefox 35+ */
       -webkit-filter: grayscale(1); /* For Google Chrome, Safari 6+ & Opera 15+ */
