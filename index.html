@@ -14,7 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pontano+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
+
 </head>
 
 <body>
@@ -30,6 +30,39 @@
 
 
     </ul>
+
+    <div id="navBarSmartPhone">
+        <div class="logo"><a href="index.html">DD Partner Invest Kft.</a></div>
+        <div id="menuBtn"><span class="arrow">&#9660;</span></div>
+        <nav id="myMenu">
+            <ul>
+
+              <li><div class="logo"><a href="index.html"></a></div></li>
+              <li><a class="menulink" href="about.html">About Me</a></li>
+              <li><a class="menulink" href="portfolio.html">Portfolio</a></li>
+              <li><a class="menulink" href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- SMARTPHONE NAVBAR -->
+    <script>
+          $(function() {
+          var menuVisible = false;
+          $('#menuBtn').click(function() {
+          if (menuVisible) {
+            $('#myMenu').css({'display':'none'});
+            menuVisible = false;
+            return;
+          }
+          $('#myMenu').css({'display':'block'});
+          menuVisible = true;
+          });
+          $('#myMenu').click(function() {
+          $(this).css({'display':'none'});
+          menuVisible = false;
+          });
+          });
+    </script>
 
     <div class="third">
 
