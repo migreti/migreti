@@ -218,7 +218,7 @@
 
     .circular:hover {
       filter: none;
-      -webkit-filter: grayscale(0);
+      -webkit-filter: none;
     }
 
     .webdes {
