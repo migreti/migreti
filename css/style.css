@@ -721,7 +721,7 @@
 
 only screen and (max-width:320px) {
 
-          #pcnavbar{
+          #navBar{
             display: none;
           }
 
