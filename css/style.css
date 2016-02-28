@@ -736,6 +736,72 @@
 
           }
 
+          #menuBtn {
+            position: absolute;
+            top:0;
+            right: 0;
+            height: 80px;
+            width: 100px;
+            background: rgba(70, 140, 105, 1);
+            color: #fff;
+            line-height: 80px;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 300%;
+           }
+
+          #myMenu {
+            display: none;
+
+
+          }
+          #myMenu ul {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            background: rgba(51, 51, 51, 0.95);
+
+          }
+          #myMenu li {
+
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            //background: rgba(51, 51, 51, .,8);
+            //background: rgba(70, 140, 105, 1);
+            width: 100%;
+            margin: 0;
+            //border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
+            list-style: none;
+            font-size: 200%;
+            text-transform: uppercase;
+            padding: 20px;
+
+          }
+
+          #myMenu li a:hover {
+            color: rgba(255, 255, 255, 0.5);
+
+          }
+
+
+
+          #myMenu li a {
+            color: white;
+            text-decoration: none;
+
+          }
+
+          #myMenu li a:active {
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+
+          }
+
 
           .robot {
             user-drag: none;
