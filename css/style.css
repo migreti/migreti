@@ -70,6 +70,13 @@
               width: 200px;
           }
 
+          .wrapper2 {
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            text-align: center;
+          }
+
 
 
           .pic {
@@ -393,6 +400,8 @@
         #textwrapper:hover .text {
         visibility:visible;
         }
+
+
 
 
 
