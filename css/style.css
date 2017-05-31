@@ -191,7 +191,10 @@
             padding-top: 50px;
           }
 
-          .submit { -webkit-appearance: none; }
+          input[type="submit"]{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
 
           .button {
             background-color: white;
