@@ -260,7 +260,7 @@
         }
 
         .third {
-            /*text-align: center;
+            text-align: center;
             float: center;
             width: 80%;
             bottom: 0px;
@@ -269,15 +269,7 @@
             //padding: 40px;
             padding-top: 80px;
             align-content: center;
-*/
 
-width: 80%;
-bottom: 0px;
-margin:0 auto;
-padding-top: 100px;
-text-align: justify;
-font-size: 100%;
-align-content: center;
 
         }
 
