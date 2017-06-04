@@ -16,6 +16,7 @@
 
 
             .robot {
+              margin-left: -55px;
               user-drag: none;
               user-select: none;
               -moz-user-select: none;
@@ -139,7 +140,7 @@
           }
 
           .typo {
-            padding-top: 100px;
+            padding-top: 70px;
           }
 
 
