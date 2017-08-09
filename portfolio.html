@@ -1,248 +1,194 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-
-
 <head>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Pontano+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-    <link rel="shortcut icon" href="/imgs/favicon_blink.ico" type="image/x-icon" />
-
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animate.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Pontano+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  <link rel="icon" href="./imgs/favicon_blink.ico" type="image/x-icon" />
+  <title>Gray</title>
 </head>
 
 <body>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect	: 'none',
+      closeEffect	: 'none'
+    });
 
-    <div class="wrapper">
-        <a href="index.html"><img src="imgs/grayt.svg" height="50px"/></a>
+  });
+  </script>
+  <div class="wrapper">
+    <a href="index.html"><img src="imgs/grayt.svg" height="50px"/></a>
+  </div>
+  <ul id="navBar">
+    <li><div class="logo"><a class="menulink" href="index.html"></a></div></li>
+    <li><a class="menulink" href="about.html">About Me</a></li>
+    <li><div class="active"><a class="menulink" href="portfolio.html">Portfolio</a></div></li>
+    <li><a class="menulink" href="contact.html">Contact Me</a></li>
+  </ul>
+  <div class="element animated pulse">
+    <div class="first">
+      <!--                            GALLERY                   -->
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/lecool_cover.jpg"><img src="imgs/lecool_cover_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Cover for le cool magazine</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/seagull.jpg"><img src="imgs/seagull_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Christmas postcard</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/subtunes.jpg"><img src="imgs/subtunes_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Poster for a shortfilm</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/home.jpg"><img src="imgs/home_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/roadrunner.png"><img src="imgs/roadrunner_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/house_textured.jpg"><img src="imgs/house_textured_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/pixel.jpg"><img src="imgs/pixel_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Game design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/skater.jpg"><img src="imgs/skater_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Game design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/skatergirl.jpg"><img src="imgs/skatergirl_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Game design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/header.jpg"><img src="imgs/header_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Header designs</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/desk.jpg"><img src="imgs/desk_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Header design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/icons.jpg"><img src="imgs/icons_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Icon design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/sealife.png"><img src="imgs/sealife_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Icon set design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/iconset.jpg"><img src="imgs/iconset_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Icon set design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/404_notfound.jpg"><img src="imgs/404_notfound_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">404 page design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/signup_form.jpg"><img src="imgs/signup_form_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Signup form design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/6.jpg"><img src="imgs/6_6.jpg" alt="Image" /></a>
+        <p class="text">UNESCO - I'm with you: winner postcard design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/7.jpg"><img src="imgs/7_7.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/12.jpg"><img src="imgs/12_12.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/5.jpg"><img src="imgs/5_5.jpg" alt="Image" /></a>
+        <p class="text">Postcard</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/8.jpg"><img src="imgs/8.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/9.jpg"><img src="imgs/9_9.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/10.jpg"><img src="imgs/10_10.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/11.jpg"><img src="imgs/11_11.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/23.jpg"><img src="imgs/23.jpg" alt="Image" /></a>
+        <p class="text">Illustration</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/yo.jpg"><img src="imgs/yo_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Ink drawing</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/self.jpg"><img src="imgs/self.jpg" alt="Image" /></a>
+        <p class="text">Ink drawing</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/15.jpg"><img src="imgs/15_15.jpg" alt="Image" /></a>
+        <p class="text">Digital painting</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/2.jpg"><img src="imgs/2_2.jpg" alt="Image" /></a>
+        <p class="text">Typography</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/1.jpg"><img src="imgs/1_1.jpg" alt="Image" /></a>
+        <p class="text">Typography</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/24.jpg"><img src="imgs/24.jpg" alt="Image" /></a>
+        <p class="text">Logo design + typography</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/19.jpg"><img src="imgs/19_19.jpg" alt="Image" /></a>
+        <p class="text">Logo design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/16.jpg"><img src="imgs/16_16.jpg" alt="Image" /></a>
+        <p class="text">Logo design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/18.jpg"><img src="imgs/18_18.jpg" alt="Image" /></a>
+        <p class="text">Logo design</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/animated_logo.gif"><img src="imgs/animated_logo.gif" alt="Image" /></a>
+        <p class="text">Motion design for a logo</p>
+      </div>
+      <div class="thumbnail">
+        <a class="fancybox" rel="group" href="imgs/characters.jpg"><img src="imgs/characters_thumbnail.jpg" alt="Image" /></a>
+        <p class="text">Character designs for an app</p>
+      </div>
     </div>
-
-    <ul id="navBar">
-      <li><div class="logo"><a class="menulink" href="index.html"></a></div></li>
-      <li><a class="menulink" href="about.html">About Me</a></li>
-      <li><div class="active"><a class="menulink" href="portfolio.html">Portfolio</a></div></li>
-      <li><a class="menulink" href="contact.html">Contact Me</a></li>
-
-    </ul>
-
-
-    <div class="element animated pulse">
-
-      <div class="first">
-
-
-    <!--                            GALLERY                   -->
-
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/lecool_cover.jpg"><img src="imgs/lecool_cover_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Cover for le cool magazine</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/seagull.jpg"><img src="imgs/seagull_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Christmas postcard</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/subtunes.jpg"><img src="imgs/subtunes_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Poster for a shortfilm</p>
-          </div>
-
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/home.jpg"><img src="imgs/home_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/house_textured.jpg"><img src="imgs/house_textured.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/pixel.jpg"><img src="imgs/pixel_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Game design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/skater.jpg"><img src="imgs/skater_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Game design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/skatergirl.jpg"><img src="imgs/skatergirl.jpg" alt="Image" /></a>
-              <p class="text">Game design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/header.jpg"><img src="imgs/header_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Header designs</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/desk.jpg"><img src="imgs/desk_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Header design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/icons.jpg"><img src="imgs/icons_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Icon design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/iconset.jpg"><img src="imgs/iconset_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Icon set design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/404_notfound.jpg"><img src="imgs/404_notfound_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">404 page design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/signup_form.jpg"><img src="imgs/signup_form_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Signup form design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/6.jpg"><img src="imgs/6_6.jpg" alt="Image" /></a>
-              <p class="text">UNESCO - I'm with you: winner postcard design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/7.jpg"><img src="imgs/7_7.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/12.jpg"><img src="imgs/12_12.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/5.jpg"><img src="imgs/5_5.jpg" alt="Image" /></a>
-              <p class="text">Postcard</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/8.jpg"><img src="imgs/8.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/9.jpg"><img src="imgs/9_9.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/10.jpg"><img src="imgs/10_10.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/11.jpg"><img src="imgs/11_11.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/23.jpg"><img src="imgs/23.jpg" alt="Image" /></a>
-              <p class="text">Illustration</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/yo.jpg"><img src="imgs/yo_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Ink drawing</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/self.jpg"><img src="imgs/self.jpg" alt="Image" /></a>
-              <p class="text">Ink drawing</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/15.jpg"><img src="imgs/15_15.jpg" alt="Image" /></a>
-              <p class="text">Digital painting</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/2.jpg"><img src="imgs/2_2.jpg" alt="Image" /></a>
-              <p class="text">Typography</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/1.jpg"><img src="imgs/1_1.jpg" alt="Image" /></a>
-              <p class="text">Typography</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/24.jpg"><img src="imgs/24.jpg" alt="Image" /></a>
-              <p class="text">Logo design + typography</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/19.jpg"><img src="imgs/19_19.jpg" alt="Image" /></a>
-              <p class="text">Logo design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/16.jpg"><img src="imgs/16.jpg" alt="Image" /></a>
-              <p class="text">Logo design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/18.jpg"><img src="imgs/18.jpg" alt="Image" /></a>
-              <p class="text">Logo design</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/animated_logo.gif"><img src="imgs/animated_logo.gif" alt="Image" /></a>
-              <p class="text">Motion design for a logo</p>
-          </div>
-
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/characters.jpg"><img src="imgs/characters_thumbnail.jpg" alt="Image" /></a>
-              <p class="text">Character designs for an app</p>
-          </div>
-
-
-          <!--
-          <div class="thumbnail">
-              <a class="fancybox" rel="group" href="imgs/22.jpg"><img src="imgs/22_22.jpg" alt="Image" /></a>
-              <p class="text">Corporate identity</p>
-          </div>
-        -->
-
-
-        </div>
-    </div>
-
-    <script type="text/javascript">
-      	$(document).ready(function() {
-          $(".fancybox").fancybox({
-          		openEffect	: 'none',
-          		closeEffect	: 'none'
-      	     });
-
-      	});
-    </script>
-
+  </div>
 </body>
 </html>
