@@ -559,7 +559,9 @@ a svg:hover #fbsvg {
 
 }
 
-
+#navBar a {
+  color: #ffda00;
+}
 
 
 #navBar ul {
