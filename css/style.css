@@ -568,6 +568,7 @@ a svg:hover #fbsvg {
 
 #navBar li {
   //color: black;
+  color: #ffda00;
   display: inline;
   padding-right: 80px;
   text-transform: uppercase;
