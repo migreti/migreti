@@ -469,12 +469,12 @@ a svg:hover #fbsvg {
   display: inline-block;
   text-align: center;
   //float: none;
-  margin: 0px;
+  //margin: 0px;
   position: relative;
   width: 280px;
   height: 280px;
   overflow: hidden;
-  margin: -2px;
+  margin: -3px;
 
   //-webkit-filter: blur(1px);
   //-moz-filter: blur(1px);
