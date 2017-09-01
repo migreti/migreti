@@ -1,5 +1,5 @@
 
-.robot {
+.hand {
   //margin-left: -55px;
   user-drag: none;
   user-select: none;
@@ -654,8 +654,8 @@ a.menulink:visited {
 
 }
 
-.robot {
-  height: 500px;
+.hand {
+
 }
 
 .gray {
