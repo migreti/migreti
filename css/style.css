@@ -771,13 +771,14 @@ object.hand {
 
     h1.about {
       font-size: 200%;
-      padding-top: 30px;
+      padding-top: 0px;
+      padding-bottom: 10px;
       margin: 0px;
     }
 
     h1 {
       font-size: 200%;
-      padding-top: 30px;
+      padding-top: 0px;
       margin: 0px;
     }
 
@@ -796,7 +797,8 @@ object.hand {
         bottom: 0px;
         margin:0 auto;
         height: 100%;
-        padding: 40px;
+        margin-top: 10px;
+        padding: 0px;
     }
 
     div.fourth {
