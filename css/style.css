@@ -693,20 +693,22 @@ object.hand {
 
       color: #ffda00;
       display: inline;
-      padding-right: 20px;
+      padding-right: 15px;
       text-transform: uppercase;
 
     }
 
     div.wrapper {
       padding-left: 15px;
-      //display: none;
+      width: 45px;
+      height: 45px;
     }
 
     img.logo {
       height: 25px;
       width: 25px;
-
+      padding: 0px;
+      margin: 0px;
     }
 
     div.wrapper {
@@ -797,9 +799,7 @@ object.hand {
         bottom: 0px;
         margin:0 auto;
         height: 100%;
-        margin-top: 10px;
         padding: 0px;
-        padding-top: 70px;
     }
 
     div.fourth {
@@ -815,6 +815,11 @@ object.hand {
       padding-top: 10px;
       padding-left: 0px;
       font-size: 80%;
+    }
+
+    h1.works {
+      padding-top: 70px;
+      padding-bottom: 20px;
     }
 
     .circular {
