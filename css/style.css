@@ -596,9 +596,10 @@ a svg:hover #fbsvg {
 
 }
 
-#navBar li > div.logo {
+img.logo {
   float: left;
-  height: 100%;
+  height: 45px;
+  width: 45px;
 
 }
 
@@ -660,4 +661,163 @@ a.menulink:visited {
 
 .gray {
   height: 50px;
+}
+
+object.hand {
+  width: 35%;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+
+    ul#navBar {
+      position: fixed;
+      top: -20px;
+      left: 0px;
+      right: 0px;
+      width: 98%;
+      z-index: 900;
+      list-style:none;
+      align-content: right;
+      background-color: rgba(250, 250, 250, 1);
+      //background-color: rgba(255, 255, 255, 1);
+      color: #ffda00;
+      //color: rgb(255, 153, 153);
+      //background-color: rgba(51, 51, 51, 1);
+      padding-top: 25px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 0px;
+      text-align: right;
+      font-family: 'Fjalla One', sans-serif;
+      //font-family: 'Slabo 27px', serif;
+      font-size: 110%;
+    }
+
+    #navBar li {
+
+      color: #ffda00;
+      display: inline;
+      padding-right: 30px;
+      text-transform: uppercase;
+
+    }
+
+    div.wrapper {
+      //display: none;
+    }
+
+    img.logo {
+      height: 20px;
+      width: 20px;
+
+    }
+
+    div.wrapper {
+
+    }
+
+    li.logo {
+      display: none;
+    }
+
+    .thumbnail {
+      display: inline-block;
+      text-align: center;
+      //float: none;
+      //margin: 0px;
+      position: relative;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      margin: -3px;
+
+    }
+    .thumbnail img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    }
+    .thumbnail img.portrait {
+      width: 100%;
+      height: auto;
+    }
+
+
+    .thumbnail .text {
+      width: 100px;
+      position:relative;
+      bottom:-100px;
+      left:0px;
+      //background-color: #ffda00;
+      background-color: rgba(0, 0, 0, 0.7);
+      visibility:hidden;
+      color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+      //font-family: 'Heebo', sans-serif;
+      //font-family: 'Quicksand', sans-serif;
+      //font-family: 'Fjalla One', sans-serif;
+      font-size: 200%;
+      align-content: center;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .thumbnail:hover .text {
+      visibility:visible;
+    }
+
+    h1.about {
+      font-size: 200%;
+      padding-top: 30px;
+      margin: 0px;
+    }
+
+    object.hand {
+      width: 60%;
+      padding-top: 20px;
+    }
+
+    div.first {
+      width: 80%;
+    }
+
+    div.second {
+      .second {
+        text-align: center;
+        width: 90%;
+        bottom: 0px;
+        margin:0 auto;
+        height: 100%;
+        padding: 40px;
+      }
+    }
+
+    h2 {
+      padding-top: 10px;
+      padding-left: 0px;
+    }
+
+    .circular {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      float: none;
+      margin: 0 auto;
+
+      width: 140px;
+      height: 140px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      background: url(../imgs/portrait_smartphone.jpg) no-repeat;
+      filter: none;
+      -webkit-filter: none;
+
+    }
+
 }
