@@ -680,17 +680,13 @@ object.hand {
       list-style:none;
       align-content: right;
       background-color: rgba(250, 250, 250, 1);
-      //background-color: rgba(255, 255, 255, 1);
       color: #ffda00;
-      //color: rgb(255, 153, 153);
-      //background-color: rgba(51, 51, 51, 1);
-      padding-top: 20px;
+      padding-top: 25px;
       padding-bottom: 20px;
       padding-left: 20px;
       padding-right: 0px;
       text-align: right;
       font-family: 'Fjalla One', sans-serif;
-      //font-family: 'Slabo 27px', serif;
       font-size: 110%;
     }
 
@@ -698,7 +694,7 @@ object.hand {
 
       color: #ffda00;
       display: inline;
-      padding-right: 30px;
+      padding-right: 20px;
       text-transform: uppercase;
 
     }
@@ -779,6 +775,12 @@ object.hand {
       margin: 0px;
     }
 
+    h1 {
+      font-size: 200%;
+      padding-top: 30px;
+      margin: 0px;
+    }
+
     object.hand {
       width: 60%;
       padding-top: 20px;
@@ -789,14 +791,21 @@ object.hand {
     }
 
     div.second {
-      .second {
         text-align: center;
         width: 100%;
         bottom: 0px;
         margin:0 auto;
         height: 100%;
         padding: 40px;
-      }
+    }
+
+    div.fourth {
+        text-align: center;
+        width: 100%;
+        bottom: 0px;
+        margin:0 auto;
+        height: 100%;
+        padding: 0px;
     }
 
     h2 {
