@@ -10,8 +10,14 @@
   position: relative;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
+
 html {
   min-height: 100%;
+  -webkit-tap-highlight-color: rgba(255, 148, 184, 0.5); 
 }
 
 body {
