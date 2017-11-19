@@ -506,7 +506,7 @@ a svg:hover #fbsvg {
   width: 280px;
   height: 280px;
   overflow: hidden;
-  margin: -3px;
+  margin: -2px;
 
   //-webkit-filter: blur(1px);
   //-moz-filter: blur(1px);
