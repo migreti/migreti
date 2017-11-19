@@ -551,7 +551,7 @@ a svg:hover #fbsvg {
   width: 280px;
   height: 280px;
   overflow: hidden;
-  margin: 0 0 0 0;
+  margin: -2px -2px -2px -2px;
 }
 .thumbnail img {
   position: absolute;
@@ -563,7 +563,7 @@ a svg:hover #fbsvg {
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
-/*
+
 .thumbnail img.portrait {
   width: 100%;
   height: auto;
@@ -582,7 +582,7 @@ a svg:hover #fbsvg {
   align-content: center;
   padding: 0px;
   text-align: center;
-}*/
+}
 
 .thumbnail:hover .text {
   visibility:visible;
@@ -681,7 +681,7 @@ object.hand {
     width: 100px;
     height: 100px;
     overflow: hidden;
-    margin: -3px -3px -3px -3px;
+    margin: -2px -2px -2px -2px;
   }
   .thumbnail img {
     position: absolute;
