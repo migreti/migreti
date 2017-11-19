@@ -619,8 +619,6 @@ a svg:hover #fbsvg {
 
 object.hand {
   width: 35%;
-  padding-bottom: 30px;
-  padding-top: 30px;
 }
 /*********TABLET**********/
 
@@ -628,6 +626,8 @@ object.hand {
   object.hand {
     width: 70%;
     padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 }
 
