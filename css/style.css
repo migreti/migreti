@@ -167,7 +167,7 @@ a.menulink:visited {
 }
 
 *:focus {
-    outline: 0 !important;
+  outline: 0 !important;
 }
 
 .boxtext{
@@ -619,203 +619,213 @@ a svg:hover #fbsvg {
 
 object.hand {
   width: 35%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/*********TABLET**********/
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  object.hand {
+    width: 70%;
+    padding-top: 20px;
+  }
 }
 
 /*******SMARTPHONE********/
 @media screen and (max-width: 600px) and (min-width: 0px) {
 
-    ul#navBar {
-      position: fixed;
-      top: -20px;
-      left: 0px;
-      right: 0px;
-      width: 98%;
-      z-index: 900;
-      list-style:none;
-      align-content: right;
-      background-color: rgba(250, 250, 250, 1);
-      color: #ffda00;
-      padding-top: 25px;
-      padding-bottom: 20px;
-      padding-left: 0px;
-      text-align: right;
-      font-family: 'Fjalla One', sans-serif;
-      font-size: 110%;
-    }
+  ul#navBar {
+    position: fixed;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    z-index: 900;
+    list-style:none;
+    align-content: right;
+    background-color: rgba(250, 250, 250, 1);
+    color: #ffda00;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 110%;
+  }
 
-    #navBar li {
-      color: #ffda00;
-      display: inline;
-      padding-right: 15px;
-      text-transform: uppercase;
-    }
+  #navBar li {
+    color: #ffda00;
+    display: inline;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
 
-    div.wrapper {
-      padding-left: 15px;
-      width: 45px;
-      height: 45px;
-    }
+  div.wrapper {
+    padding-left: 15px;
+    width: 45px;
+    height: 45px;
+  }
 
-    img.logo {
-      height: 25px;
-      width: 25px;
-      padding: 0px;
-      margin: 0px;
-    }
+  img.logo {
+    height: 25px;
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+  }
 
-    div.wrapper {
+  div.wrapper {
 
-    }
+  }
 
-    li.logo {
-      display: none;
-    }
+  li.logo {
+    display: none;
+  }
 
-    .thumbnail {
-      display: inline-block;
-      text-align: center;
-      position: relative;
-      width: 100px;
-      height: 100px;
-      overflow: hidden;
-      margin: -3px;
-    }
-    .thumbnail img {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      height: 100%;
-      width: auto;
-      -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
-    }
-    .thumbnail img.portrait {
-      width: 100%;
-      height: auto;
-    }
+  .thumbnail {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: -3px;
+  }
+  .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+  }
 
 
-    .thumbnail .text {
-      width: 100px;
-      position:relative;
-      bottom:-100px;
-      left:0px;
-      background-color: rgba(0, 0, 0, 0.7);
-      visibility:hidden;
-      color: white;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 200%;
-      align-content: center;
-      padding: 0px;
-      text-align: center;
-    }
+  .thumbnail .text {
+    width: 100px;
+    position:relative;
+    bottom:-100px;
+    left:0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility:hidden;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    align-content: center;
+    padding: 0px;
+    text-align: center;
+  }
 
-    .thumbnail:hover .text {
-      visibility:visible;
-    }
+  .thumbnail:hover .text {
+    visibility:visible;
+  }
 
-    h1.about {
-      font-size: 200%;
-      padding-top: 0px;
-      padding-bottom: 10px;
-      margin: 0px;
-    }
+  h1.about {
+    font-size: 200%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
 
-    h1.works {
-      font-size:200%;
-    }
+  h1.works {
+    font-size:200%;
+  }
 
-    h1 {
-      font-size: 200%;
-      padding-top: 0px;
-      margin: 0px;
-    }
+  h1 {
+    font-size: 200%;
+    padding-top: 0px;
+    margin: 0px;
+  }
 
-    object.hand {
-      width: 80%;
-      padding-top: 20px;
-    }
+  object.hand {
+    width: 80%;
+    padding-top: 20px;
+  }
 
-    div.first {
-      width: 80%;
-      padding-top: 70px;
-    }
+  div.first {
+    width: 80%;
+    padding-top: 70px;
+  }
 
-    div.second {
-        text-align: center;
-        width: 100%;
-        bottom: 0px;
-        margin:0 auto;
-        height: 100%;
-        padding: 0px;
-    }
+  div.second {
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    margin:0 auto;
+    height: 100%;
+    padding: 0px;
+  }
 
-    div.fourth {
-        text-align: center;
-        width: 100%;
-        bottom: 0px;
-        margin:0 auto;
-        height: 100%;
-        padding: 0px;
-    }
+  div.fourth {
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    margin:0 auto;
+    height: 100%;
+    padding: 0px;
+  }
 
-    h2 {
-      padding-top: 10px;
-      padding-left: 0px;
-      font-size: 80%;
-    }
+  h2 {
+    padding-top: 10px;
+    padding-left: 0px;
+    font-size: 80%;
+  }
 
-    h2.mainpage {
-      padding-left: 0px;
-      padding-top: 0px;
-      color: black;
-      font-family: 'Poppins', sans-serif;
-      font-size:100%;
-    }
+  h2.mainpage {
+    padding-left: 0px;
+    padding-top: 0px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:100%;
+  }
 
-    h1.about {
-      padding-top: 20px;
-      padding-bottom: 0px;
-      font-size: 180%;
-    }
+  h1.about {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 180%;
+  }
 
-    h1.works {
-      padding-top: 70px;
-      padding-bottom: 20px;
-      font-size: 200%;
-    }
+  h1.works {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 200%;
+  }
 
-    .circular {
-      margin-top: 10px;
-      margin-bottom: 0px;
-      float: none;
-      margin: 0 auto;
-      width: 140px;
-      height: 140px;
-      border-radius: 150px;
-      -webkit-border-radius: 150px;
-      -moz-border-radius: 150px;
-      background: url(../imgs/portrait_smartphone.jpg) no-repeat;
-      filter: none;
-      -webkit-filter: none;
-    }
+  .circular {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: none;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../imgs/portrait_smartphone.jpg) no-repeat;
+    filter: none;
+    -webkit-filter: none;
+  }
 
-    form.about {
-      padding: 0px;
-    }
+  form.about {
+    padding: 0px;
+  }
 
-    input.button {
-      padding-bottom: 50px;
-    }
+  input.button {
+    padding-bottom: 50px;
+  }
 
-    input.indexButton {
-      width: 80%;
-      font-size: 12px;
-    }
+  input.indexButton {
+    width: 80%;
+    font-size: 12px;
+  }
 
-    input.emailButton {
-      font-size: 100%;
-    }
+  input.emailButton {
+    font-size: 100%;
+  }
 
 }
