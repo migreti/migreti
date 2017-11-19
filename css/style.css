@@ -551,7 +551,7 @@ a svg:hover #fbsvg {
   width: 280px;
   height: 280px;
   overflow: hidden;
-  margin: -2px;
+  margin: -3px;
 }
 .thumbnail img {
   position: absolute;
