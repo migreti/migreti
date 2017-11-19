@@ -50,7 +50,7 @@ body {
 
 #navBar li > div.active {
   display: inline;
-  text-decoration: line-through;
+  border-bottom: 2px solid #ffda00;
 }
 
 img.logo {
