@@ -12,7 +12,7 @@ body {
 }
 
 #navBarMobile {
-  visibility: hidden;
+  display: none;
 }
 
 /* navigation bar */
@@ -736,7 +736,7 @@ object.hand {
   }
 
   #navBarMobile {
-    visibility: visible;
+    display: none;
   }
 
   #navBar {
