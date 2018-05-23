@@ -9,6 +9,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- Favicon -->
   <link rel="icon" href="./imgs/favicon_blink.ico" type="image/x-icon" />
   <title>This is Greta.</title>
@@ -17,6 +18,14 @@
   <div class="wrapper">
     <a href="index"><img class="logo" src="imgs/eye_blinky.gif"/></a>
   </div>
+  <ul id="navBarMobile">
+  <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</ul>
+
   <ul id="navBar">
     <li><a class="menulink" href="about">About Me</a></li>
     <li><a class="menulink" href="works">Portfolio</a></li>
@@ -24,15 +33,54 @@
   </ul>
   <div class="third">
     <div class="element animated fadeIn">
-      <object class="hand" type="image/svg+xml" data="imgs/handy.svg"></object>
-      <h1 class="about">Hello, my Name is Greta</h1>
-      <h2 class="mainpage">I design & build user interfaces.</h2>
+      <!--<object class="hand" type="image/svg+xml" data="imgs/handy.svg"></object>
+      <svg class="eye" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+      <style type="text/css">
+      	.st0{fill:#FFDA00;}
+      	.st1{fill:#FFFFFF;}
+      	.st2{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+      	.st3{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+      </style>
+      <rect class="st0" width="128" height="128"/>
+      <g>
+      	<path class="st1" d="M63.4,44.8c19.5,0,36.6,13.3,43.2,19.1C100,69.8,83,83.1,63.4,83.1c-19.5,0-36.6-13.3-43.2-19.1
+      		C26.8,58,43.8,44.8,63.4,44.8 M63.4,40.8c-27.1,0-49,23.1-49,23.1s21.9,23.1,49,23.1s49-23.1,49-23.1S90.5,40.8,63.4,40.8
+      		L63.4,40.8z"/>
+      </g>
+      <g>
+      	<path class="st1" d="M63.4,45.3c6,0,11,8.6,11,18.7s-5,18.7-11,18.7s-11-8.6-11-18.7S57.4,45.3,63.4,45.3 M63.4,41.3
+      		c-8.3,0-15,10.2-15,22.7s6.7,22.7,15,22.7c8.3,0,15-10.2,15-22.7S71.7,41.3,63.4,41.3L63.4,41.3z"/>
+      </g>
+      <g>
+      	<circle class="st1" cx="63.4" cy="63.9" r="6.5"/>
+      </g>
+      <circle class="st2" cx="58.5" cy="50.5" r="4"/>
+      <line class="st3" x1="62" y1="21" x2="62" y2="41"/>
+      <line class="st3" x1="39.3" y1="26.4" x2="44.7" y2="45.6"/>
+      <line class="st3" x1="83.7" y1="26.4" x2="78.3" y2="45.6"/>
+      <line class="st3" x1="105.4" y1="35.6" x2="94.6" y2="52.4"/>
+      <line class="st3" x1="18.6" y1="37.6" x2="29.4" y2="54.4"/>
+      <line class="st3" x1="64" y1="107" x2="64" y2="87"/>
+      <line class="st3" x1="41.3" y1="101.6" x2="46.7" y2="82.4"/>
+      <line class="st3" x1="85.7" y1="101.6" x2="80.3" y2="82.4"/>
+      <line class="st3" x1="107.4" y1="92.4" x2="96.6" y2="75.6"/>
+      <line class="st3" x1="20.6" y1="90.4" x2="31.4" y2="73.6"/>
+      </svg>-->
+      <h1 class="hero">Hello,</h1>
+
+      <h2 class="mainpage"> my Name is <b>Gréta</b>.<br/> <i>I design & build user interfaces.</i></h2>
     </div>
     <div class="element animated fadeIn">
       <form action="./works">
-        <input type="submit" class="indexButton" value="Take a look at my portfolio"  />
+        <input type="submit" class="button" value="Take a look at my portfolio"  />
       </form>
     </div>
   </div>
+  <script>
+  function myFunction(x) {
+      x.classList.toggle("change");
+  }
+  </script>
 </body>
 </html>
