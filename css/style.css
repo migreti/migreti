@@ -207,12 +207,12 @@ div.about img {
 /* text formatting */
 
 mark {
-    background-color: #ffda00;
-    color: #34312D;
-    padding-left: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+  background-color: #ffda00;
+  color: #34312D;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 h1 {
@@ -284,6 +284,31 @@ h2.mainpage {
   letter-spacing: 0.5px;
   line-height: 40px;
   text-align: center;
+}
+
+h2.rotated {
+  padding-left: 0px;
+  padding-top: 0px;
+  color: #453F36;
+  font-family: 'Poppins', sans-serif;
+  font-size:24px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  text-align: center;
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .contact {
@@ -617,12 +642,12 @@ div.thumbnail img {
   transform: translate(-50%,-50%);
 }
 
-.thumbnail img.portrait {
+div.thumbnail img.portrait {
   width: 100%;
   height: auto;
 }
 
-.thumbnail .text {
+div.thumbnail .text {
   width: 280px;
   height: 280px;
   position:relative;
@@ -691,48 +716,47 @@ object.hand {
 
   /* menubar */
   .container {
-      display: inline-block;
-      cursor: pointer;
-      text-align: right;
-      position: fixed;
-      top: -20px;
-      left: 0px;
-      right: 0px;
-      width: 98%;
-      z-index: 900;
-      list-style:none;
-      align-content: right;
-      background-color: rgba(252, 252, 252, 1);
-      color: #ffda00;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 40px;
-      padding-right: 40px;
-      text-align: right;
-      //font-family: 'Fjalla One', sans-serif;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      font-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+    text-align: right;
+    position: fixed;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    z-index: 900;
+    list-style:none;
+    align-content: right;
+    background-color: rgba(252, 252, 252, 1);
+    color: #ffda00;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
   }
 
   .bar1, .bar2, .bar3 {
-      width: 35px;
-      height: 5px;
-      background-color: #34312D;
-      margin: 6px 0;
-      transition: 0.4s;
+    width: 35px;
+    height: 5px;
+    background-color: #34312D;
+    margin: 6px 0;
+    transition: 0.4s;
   }
 
   .change .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-      transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
   }
 
   .change .bar2 {opacity: 0;}
 
   .change .bar3 {
-      -webkit-transform: rotate(45deg) translate(-8px, -8px);
-      transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
   }
 
   #navBarMobile {
@@ -745,22 +769,22 @@ object.hand {
 
   ul#navBar {
 
-    //position: fixed;
-    //top: -20px;
-    //left: 0px;
-    //right: 0px;
-    //width: 98%;
-    //z-index: 900;
-    //list-style:none;
-    //align-content: right;
-    //background-color: rgba(252, 252, 252, 1);
-    //color: #ffda00;
-    //padding-top: 25px;
-    //padding-bottom: 20px;
-    //padding-left: 0px;
-    //text-align: right;
-    //font-family: 'Poppins', sans-serif;
-    //font-size: 110%;
+    position: fixed;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    width: 98%;
+    z-index: 900;
+    list-style:none;
+    align-content: right;
+    background-color: rgba(252, 252, 252, 1);
+    color: #ffda00;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 110%;
   }
 
   #navBar li {
@@ -783,15 +807,11 @@ object.hand {
     margin: 0px;
   }
 
-  div.wrapper {
-
-  }
-
   li.logo {
     display: none;
   }
 
-  .thumbnail {
+  div.thumbnail {
     display: inline-block;
     text-align: center;
     position: relative;
@@ -800,7 +820,7 @@ object.hand {
     overflow: hidden;
     margin: -2px -2px -2px -2px;
   }
-  .thumbnail img {
+  div.thumbnail img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -811,13 +831,12 @@ object.hand {
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
   }
-  .thumbnail img.portrait {
+  div.thumbnail img.portrait {
     width: 100%;
     height: auto;
   }
 
-
-  .thumbnail .text {
+  div.thumbnail .text {
     width: 100px;
     position:relative;
     bottom:-100px;
@@ -832,7 +851,7 @@ object.hand {
     text-align: center;
   }
 
-  .thumbnail:hover .text {
+  div.thumbnail:hover .text {
     visibility:visible;
   }
 
@@ -858,15 +877,9 @@ object.hand {
     font-weight: bold;
   }
 
-  object.hand {
-    width: 80%;
-    padding-top: 20px;
-  }
-
   div.about {
     width: 80%;
     padding-top: 70px;
-    //margin: 0 auto;
     text-align: center;
   }
 
@@ -907,38 +920,38 @@ object.hand {
     padding-bottom: 0px;
     font-weight: bold;
     font-size: 180%;
+    }
 
+    .circular {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      float: none;
+      margin: 0 auto;
+      width: 140px;
+      height: 140px;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      background: url(../imgs/portrait_smartphone.jpg) no-repeat;
+      filter: none;
+      -webkit-filter: none;
+    }
 
-  .circular {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    float: none;
-    margin: 0 auto;
-    width: 140px;
-    height: 140px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background: url(../imgs/portrait_smartphone.jpg) no-repeat;
-    filter: none;
-    -webkit-filter: none;
+    form.about {
+      padding: 0px;
+    }
+
+    input.button {
+      padding-bottom: 50px;
+    }
+
+    input.indexButton {
+      width: 80%;
+      font-size: 12px;
+    }
+
+    input.emailButton {
+      font-size: 14px;
+    }
+
   }
-
-  form.about {
-    padding: 0px;
-  }
-
-  input.button {
-    padding-bottom: 50px;
-  }
-
-  input.indexButton {
-    width: 80%;
-    font-size: 12px;
-  }
-
-  input.emailButton {
-    font-size: 14px;
-  }
-
-}
