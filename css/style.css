@@ -657,7 +657,8 @@ div.thumbnail .text {
   background-color: #ffda00;
   //background-color: rgba(52, 49, 45, 1);
   visibility:hidden;
-  color: white;
+  //color: white;
+  color: #34312D;
   //font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -665,7 +666,7 @@ div.thumbnail .text {
   padding: 0px;
   padding-top: 130px;
   text-align: center;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 div.thumbnail:hover .text {
@@ -844,7 +845,8 @@ object.hand {
     left:0px;
     background-color: rgba(0, 0, 0, 0.7);
     visibility:hidden;
-    color: white;
+    color: #34312D;
+    //color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 200%;
     align-content: center;
