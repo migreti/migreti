@@ -34,7 +34,6 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   text-align: right;
-  //font-family: 'Fjalla One', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 100%;
@@ -59,12 +58,6 @@ body {
   display: inline;
   color: #34312D;
   //border-bottom: 2px solid #ffda00;
-}
-
-img.logo {
-  float: left;
-  height: 45px;
-  width: 45px;
 }
 
 #navBar a.menulink:hover {
@@ -94,6 +87,15 @@ a.menulink:visited {
   color: rgba(0, 0, 0, 0);
 }
 
+/*************************/
+/* logo */
+
+img.logo {
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
 .wrapper {
   z-index: 999;
   position: fixed;
@@ -102,6 +104,7 @@ a.menulink:visited {
   width: 45px;
 }
 
+/*************************/
 /* main div elements */
 
 div.about {
@@ -120,7 +123,7 @@ div.about img {
   float: left;
 }
 
-.second {
+div.second {
   text-align: center;
   width: 80%;
   bottom: 0px;
@@ -129,7 +132,7 @@ div.about img {
   padding: 40px;
 }
 
-.third {
+div.third {
   text-align: center;
   float: center;
   width: 80%;
@@ -140,7 +143,7 @@ div.about img {
   align-content: center;
 }
 
-.fourth {
+div.fourth {
   text-align: center;
   float: left;
   width: 95%;
@@ -150,14 +153,14 @@ div.about img {
   padding-left: 40px;
 }
 
-.centeredParagraph {
+div.centeredParagraph {
   color: #453F36;
   font-family: 'Source Sans Pro', sans-serif;
   font-size:150%;
   text-align: center;
 }
 
-.marginedParagraph  {
+div.marginedParagraph  {
   color: #453F36;
   padding-left: 40px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -205,6 +208,7 @@ div.about img {
   position: relative;
 }
 
+/*************************/
 /* text formatting */
 
 mark {
@@ -224,7 +228,6 @@ h1 {
   align-items: center;
   //color: #ffda00;
   color: #34312D;
-  //font-family: 'Fjalla One', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -241,13 +244,16 @@ h1.hero {
   padding-bottom: 0px;
   font-weight: 700;
   align-content: center;
+  -webkit-animation-name: main; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: main;
+  animation-duration: 2s;
 }
 
 h1.works {
   padding-left: 0px;
   color: #ffda00;
   color: #34312D;
-  //font-family: 'Fjalla One', sans-serif;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 48px;
@@ -262,7 +268,6 @@ h1.about {
   font-weight: bold;
   align-content: center;
 }
-
 
 h2 {
   padding-top: 20px;
@@ -298,16 +303,12 @@ h2.rotated {
   text-align: center;
   /* Safari */
   -webkit-transform: rotate(90deg);
-
   /* Firefox */
   -moz-transform: rotate(90deg);
-
   /* IE */
   -ms-transform: rotate(90deg);
-
   /* Opera */
   -o-transform: rotate(90deg);
-
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
@@ -324,10 +325,6 @@ h2.rotated {
 h3 {
   text-align: center;
   font-size: 18px;
-  //margin-left: 40px;
-  //padding-top: 10px;
-  //font-size: 200%;
-  //color: rgba(105, 145, 102, 1);
   color: #34312D;
   font-family: 'Poppins', sans-serif;
 }
@@ -348,18 +345,11 @@ p  {
   font-size:10px;
   font-weight: bold;
   text-align: left;
-  //text-align: justify;
   line-height: 20px;
 }
 
-p2  {
-  color:#453F36;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size:120%;
-  text-align: left;
-  //text-align: justify;
-  line-height: 20px;
-}
+/*************************/
+/* form elements */
 
 form {
   margin: 0 auto;
@@ -371,6 +361,8 @@ input[type="submit"]{
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+
+/* buttons */
 
 .button {
   background: rgba(252, 252, 252, 0);
@@ -441,6 +433,9 @@ input.emailButton {
   background: #ff94b8;
 }
 
+/*************************/
+/* image */
+
 .circular {
   margin-right: 40px;
   margin-bottom: 20px;
@@ -461,92 +456,12 @@ input.emailButton {
   -webkit-filter: none;
 }
 
-.mail {
-  text-decoration: none;
-  color: #453F36;
-  font-size: 200%;
-  text-align: center;
-}
+/*************************/
+/*  animaton  */
 
-a.dribbble {
-  padding-top: 20px;
-  color: #453F36;
-  font-family: 'Poppins', sans-serif;
-  font-size:100%;
-  text-decoration: none;
-}
-
-a.insta {
-  padding-top: 20px;
-  color: #453F36;
-  font-family: 'Poppins', sans-serif;
-  font-size:100%;
-  text-decoration: none;
-}
-
-a.fb {
-  padding-top: 20px;
-  color: #453F36;
-  font-family: 'Poppins', sans-serif;
-  font-size:100%;
-  text-decoration: none;
-}
-
-a.dribbble:hover {
-  color: #ffda00;
-}
-
-a.insta:hover {
-  color: #ffda00;
-}
-
-a.fb:hover {
-  color: #ffda00;
-}
-
-a svg #mailpath {
-  fill: #453F36;
-}
-
-a svg:hover #mailpath {
-  animation: animation 0.5s forwards;
-  -webkit-animation: animation 0.5s forwards;
-  -ms-animation: animation 0.5s forwards;
-  -o-animation: animation 0.5s forwards;
-  -moz-animation: animation 0.5s forwards;
-}
-
-a svg:hover #insta {
-  animation: animation 0.5s forwards;
-  -webkit-animation: animation 0.5s forwards;
-  -ms-animation: animation 0.5s forwards;
-  -o-animation: animation 0.5s forwards;
-  -moz-animation: animation 0.5s forwards;
-}
-
-a svg:hover #fb {
-  animation: animation 0.5s forwards;
-  -webkit-animation: animation 0.5s forwards;
-  -ms-animation: animation 0.5s forwards;
-  -o-animation: animation 0.5s forwards;
-  -moz-animation: animation 0.5s forwards;
-}
-
-a svg:hover #dribbble {
-  animation: animation 0.5s forwards;
-  -webkit-animation: animation 0.5s forwards;
-  -ms-animation: animation 0.5s forwards;
-  -o-animation: animation 0.5s forwards;
-  -moz-animation: animation 0.5s forwards;
-}
-
-a svg:hover #fbsvg {
-
-  animation: animation 0.5s forwards;
-  -webkit-animation: animation 0.5s forwards;
-  -ms-animation: animation 0.5s forwards;
-  -o-animation: animation 0.5s forwards;
-  -moz-animation: animation 0.5s forwards;
+@keyframes main {
+  0%   {color:#ffda00; left:0px; top:0px;}
+  100% {color:#34312D; left:200px; top:0px;}
 }
 
 @keyframes animation {
@@ -577,6 +492,20 @@ a svg:hover #fbsvg {
   to {
     fill: #ffda00;
   }
+}
+
+/* text animation */
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+  0% {color: #ffda00);}
+  100% {color: rgba(0, 0, 0, 1);}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {color: #ffda00;}
+  100% {color: rgba(0, 0, 0, 1);}
 }
 
 #textwrapper {
@@ -622,6 +551,9 @@ div.about a.menulink:hover {
   align: center;
 }
 
+/*************************/
+/* thumbnails */
+
 div.thumbnail {
   display: inline-block;
   text-align: center;
@@ -655,14 +587,10 @@ div.thumbnail .text {
   bottom: 20px;
   left:0px;
   background-color: #ffda00;
-  //background-color: rgba(52, 49, 45, 1);
   visibility:hidden;
-  //color: white;
   color: #34312D;
-  //font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  //align-content: center;
   padding: 0px;
   padding-top: 130px;
   text-align: center;
@@ -671,24 +599,6 @@ div.thumbnail .text {
 
 div.thumbnail:hover .text {
   visibility:visible;
-}
-
-/* text animation */
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-  0% {color: #ffda00);}
-  100% {color: rgba(0, 0, 0, 1);}
-}
-
-/* Standard syntax */
-@keyframes example {
-  0% {color: #ffda00;}
-  100% {color: rgba(0, 0, 0, 1);}
-}
-
-.hand {
-
 }
 
 .gray {
@@ -702,6 +612,7 @@ object.hand {
 .eye {
   width: 15%;
 }
+/*************************/
 /*********TABLET**********/
 
 @media screen and (max-width: 1024px) and (min-width: 600px) {
@@ -712,7 +623,7 @@ object.hand {
     padding-top: 30px;
   }
 }
-
+/*************************/
 /*******SMARTPHONE********/
 @media screen and (max-width: 600px) and (min-width: 0px) {
 
@@ -916,6 +827,7 @@ object.hand {
     color: #453F36;
     font-family: 'Poppins', sans-serif;
     font-size:100%;
+
   }
 
   h1.about {
@@ -923,38 +835,38 @@ object.hand {
     padding-bottom: 0px;
     font-weight: bold;
     font-size: 180%;
-    }
-
-    .circular {
-      margin-top: 50px;
-      margin-bottom: 20px;
-      float: none;
-      margin: 0 auto;
-      width: 140px;
-      height: 140px;
-      border-radius: 150px;
-      -webkit-border-radius: 150px;
-      -moz-border-radius: 150px;
-      background: url(../imgs/portrait_smartphone.jpg) no-repeat;
-      filter: none;
-      -webkit-filter: none;
-    }
-
-    form.about {
-      padding: 0px;
-    }
-
-    input.button {
-      padding-bottom: 50px;
-    }
-
-    input.indexButton {
-      width: 80%;
-      font-size: 12px;
-    }
-
-    input.emailButton {
-      font-size: 14px;
-    }
-
   }
+
+  .circular {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: none;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../imgs/portrait_smartphone.jpg) no-repeat;
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  form.about {
+    padding: 0px;
+  }
+
+  input.button {
+    padding-bottom: 50px;
+  }
+
+  input.indexButton {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  input.emailButton {
+    font-size: 14px;
+  }
+
+}
