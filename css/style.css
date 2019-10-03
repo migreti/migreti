@@ -34,7 +34,8 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arvo', serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   font-weight: 900;
   font-size: 100%;
 }
@@ -163,7 +164,8 @@ div.centeredParagraph {
 div.marginedParagraph  {
   color: #453F36;
   padding-left: 40px;
-  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size:120%;
   text-align: left;
 }
@@ -228,7 +230,8 @@ h1 {
   align-items: center;
   //color: #ffda00;
   color: #34312D;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 48px;
@@ -254,7 +257,8 @@ h1.works {
   padding-left: 0px;
   color: #ffda00;
   color: #34312D;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Arvo', serif;
   text-transform: uppercase;
   font-size: 48px;
   font-weight: bold;
@@ -273,7 +277,8 @@ h2 {
   padding-top: 20px;
   color: #453F36;
   padding-left: 20px;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 1px;
@@ -285,7 +290,8 @@ h2.mainpage {
   padding-left: 0px;
   padding-top: 0px;
   color: #453F36;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size:24px;
   letter-spacing: 0.5px;
   line-height: 40px;
@@ -296,7 +302,8 @@ h2.rotated {
   padding-left: 0px;
   padding-top: 0px;
   color: #453F36;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size:24px;
   letter-spacing: 0.5px;
   line-height: 40px;
@@ -326,7 +333,8 @@ h3 {
   text-align: center;
   font-size: 18px;
   color: #34312D;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  ont-family: 'Arvo', serif;
 }
 
 h4 {
@@ -335,12 +343,14 @@ h4 {
   padding-top: 10px;
   font-size:300%;
   color: #453F36;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Arvo', serif;
 }
 
 p  {
   color: rgba(0, 0, 0, 1);
-  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Arvo', serif;
   padding: 50px;
   font-size:10px;
   font-weight: bold;
@@ -352,14 +362,16 @@ a.socials {
   color: #ffda00;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
 }
 
 a.socials:hover {
   color: #34312D;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
 }
 
 /*************************/
@@ -384,7 +396,8 @@ input[type="submit"]{
   border: 2px dotted rgba(230, 230, 0, 0);
   border-radius: 6px;
   padding: 15px 32px;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -434,7 +447,7 @@ input.emailButton {
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
 }
 
 .emailButton:hover {
@@ -535,7 +548,8 @@ input.emailButton {
   text-align: center;
   color: #ffda00;
   padding: 0;
-  font-family: 'Pontano Sans', sans-serif;
+  /*font-family: 'Pontano Sans', sans-serif;*/
+  font-family: 'Arvo', serif;
 }
 
 #textwrapper:hover .text {
@@ -605,7 +619,8 @@ div.thumbnail .text {
   background-color: #ffda00;
   visibility:hidden;
   color: #34312D;
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size: 18px;
   padding: 0px;
   padding-top: 130px;
@@ -663,7 +678,8 @@ object.hand {
     padding-left: 40px;
     padding-right: 40px;
     text-align: right;
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Arvo', serif;
     font-weight: 500;
     font-size: 100%;
   }
@@ -712,7 +728,7 @@ object.hand {
     padding-bottom: 20px;
     padding-left: 0px;
     text-align: right;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
     font-size: 110%;
   }
 
@@ -774,7 +790,8 @@ object.hand {
     visibility:hidden;
     color: #34312D;
     //color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Arvo', serif;
     font-size: 200%;
     align-content: center;
     padding: 0px;
@@ -841,7 +858,8 @@ object.hand {
     padding-left: 0px;
     padding-top: 0px;
     color: #453F36;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Arvo', serif;
     font-size:100%;
 
   }
