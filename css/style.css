@@ -36,6 +36,7 @@ body {
   text-align: right;
   font-family: 'Arvo', serif;
   /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Be Vietnam', sans-serif;
   font-weight: 900;
   font-size: 100%;
 }
@@ -165,6 +166,7 @@ div.marginedParagraph  {
   color: #453F36;
   padding-left: 40px;
   /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Be Vietnam', sans-serif;
   font-family: 'Arvo', serif;
   font-size:120%;
   text-align: left;
