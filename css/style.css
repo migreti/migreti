@@ -37,7 +37,7 @@ body {
   font-family: 'Arvo', serif;
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Be Vietnam', sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 100%;
 }
 
@@ -53,7 +53,7 @@ body {
   color: #ffda00;
   display: inline;
   padding-right: 80px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #navBar li > div.active {
@@ -157,7 +157,8 @@ div.fourth {
 
 div.centeredParagraph {
   color: #453F36;
-  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Arvo', serif;
   font-size:150%;
   text-align: center;
 }
@@ -167,8 +168,7 @@ div.marginedParagraph  {
   padding-left: 40px;
   /*font-family: 'Source Sans Pro', sans-serif;*/
   font-family: 'Be Vietnam', sans-serif;
-  font-family: 'Arvo', serif;
-  font-size:120%;
+  font-size: 120%;
   text-align: left;
 }
 
@@ -235,12 +235,12 @@ h1 {
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Arvo', serif;
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 48px;
   text-align: center;
   padding-top: 80px;
   padding-bottom: 5px;
-  border-bottom: 10px solid #ffda00;
+  border-bottom: 5px solid #ffda00;
 }
 
 h1.hero {
@@ -261,7 +261,7 @@ h1.works {
   color: #34312D;
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Arvo', serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 48px;
   font-weight: bold;
   text-align: center;
@@ -271,21 +271,26 @@ h1.works {
 h1.about {
   font-size: 48px;
   padding-top: 0px;
-  font-weight: bold;
-  align-content: center;
+  font-weight: 700;
+  /*align-content: center;*/
+  text-align: left;
 }
 
 h2 {
   padding-top: 20px;
-  color: #453F36;
+  /*color: #453F36;*/
+  color: #4F483F;
   padding-left: 20px;
   /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Arvo', serif;
-  font-size: 16px;
-  line-height: 28px;
+  /*font-family: 'Arvo', serif;*/
+  /*font-family: 'Be Vietnam', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
   letter-spacing: 1px;
   text-align: left;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 h2.mainpage {
@@ -293,7 +298,8 @@ h2.mainpage {
   padding-top: 0px;
   color: #453F36;
   /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Arvo', serif;
+  /*font-family: 'Arvo', serif;*/
+  font-family: 'Be Vietnam', sans-serif;
   font-size:24px;
   letter-spacing: 0.5px;
   line-height: 40px;
@@ -399,14 +405,16 @@ input[type="submit"]{
   border-radius: 6px;
   padding: 15px 32px;
   /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Arvo', serif;
+  /*font-family: 'Arvo', serif;*/
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  cursor: pointer;
+  /*cursor: pointer;*/
   margin: 0 auto;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
+  cursor: url('../imgs/smiley-cursor.png'), auto;
 }
 
 .button:hover {
@@ -476,7 +484,8 @@ input.emailButton {
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  background: url(../imgs/portrait.jpg) no-repeat;
+  /*background: url(../imgs/portrait.jpg) no-repeat;*/
+  background: url(../imgs/it_me.jpg) no-repeat;
   filter: gray; /* For IE6-9 */
   filter: grayscale(1); /* For Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* For Google Chrome, Safari 6+ & Opera 15+ */
@@ -738,7 +747,7 @@ object.hand {
     color: #ffda00;
     display: inline;
     padding-right: 15px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
   }
 
   div.wrapper {
@@ -805,11 +814,11 @@ object.hand {
   }
 
   h1.about {
-    font-size: 200%;
+    font-size: 48px;
     padding-top: 0px;
     padding-bottom: 10px;
     margin: 0px;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   h1.works {
@@ -819,7 +828,7 @@ object.hand {
   }
 
   h1 {
-    font-size: 200%;
+    font-size: 32px;
     padding-top: 0px;
     margin: 0px;
     font-weight: 800;
@@ -853,7 +862,7 @@ object.hand {
   h2 {
     padding-top: 10px;
     padding-left: 0px;
-    font-size: 80%;
+    //font-size: 80%;
   }
 
   h2.mainpage {
@@ -862,15 +871,14 @@ object.hand {
     color: #453F36;
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Arvo', serif;
-    font-size:100%;
+    //font-size:100%;
 
   }
 
   h1.about {
     padding-top: 20px;
     padding-bottom: 0px;
-    font-weight: bold;
-    font-size: 180%;
+    font-weight: 700;
   }
 
   .circular {
@@ -883,7 +891,8 @@ object.hand {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url(../imgs/portrait_smartphone.jpg) no-repeat;
+    /*background: url(../imgs/portrait_smartphone.jpg) no-repeat;*/
+    background: url(../imgs/it_me.jpg) no-repeat;
     filter: none;
     -webkit-filter: none;
   }
