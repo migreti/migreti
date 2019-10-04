@@ -123,7 +123,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
@@ -410,7 +410,7 @@ input[type="submit"]{
   margin: 0 auto;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  cursor: url('../imgs/smiley-cursor.png'), auto;
+  cursor: url('../imgs/view-cursor.png'), auto;
   text-transform: uppercase;
 }
 
