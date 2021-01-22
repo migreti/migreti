@@ -397,8 +397,7 @@ input.emailButton {
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  /*background: url(../imgs/portrait.jpg) no-repeat;*/
-  background: url(../imgs/it_me.jpg) no-repeat;
+  background: url(../imgs/about-me.png) no-repeat;
   filter: gray; /* For IE6-9 */
   filter: grayscale(1); /* For Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* For Google Chrome, Safari 6+ & Opera 15+ */
