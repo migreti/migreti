@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=11;IE=Edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!--Stylesheets -->
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animate.css"/>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="./imgs/favicon_blink.ico" type="image/x-icon" />
+  <title>This is Greta.</title>
+</head>
+<body>
+  <div class="wrapper">
+    <a href="index"><img class="logo" src="imgs/tgr-logo.svg"/></a>
+  </div>
+  <ul id="navBarMobile">
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </ul>
+
+  <ul id="navBar">
+    <li><a class="menulink" href="about">About Me</a></li>
+    <li><a class="menulink" href="works">Portfolio</a></li>
+    <li><a class="menulink" href="contact">Contact Me</a></li>
+  </ul>
+    <div class="element animated fadeIn">
+      <div class="centered">
+        <img src="imgs/tgr-logo.svg" width="350" />
+        <h2 class="mainpage"> Hey, this is Gréta.<br/> I do creative stuff.</h2>
+        <div class="element animated fadeIn">
+          <form action="./works">
+            <input type="submit" class="button" value="View my portfolio"  />
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+</body>
+</html>
